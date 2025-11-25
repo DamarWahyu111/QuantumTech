@@ -4,6 +4,7 @@ import { useState, useRef, useEffect } from "react"
 import { ChevronDown, Search, Globe, Menu, X } from "lucide-react"
 import { cn } from "@/lib/utils"
 import Link from "next/link"
+import { useRouter } from "next/navigation"
 
 const navItems = [
   {
@@ -62,11 +63,15 @@ const searchData = [
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null)
+  const [mobileActiveDropdown, setMobileActiveDropdown] = useState<string | null>(null)
   const [searchOpen, setSearchOpen] = useState(false)
   const [searchQuery, setSearchQuery] = useState("")
+  const [mobileSearchQuery, setMobileSearchQuery] = useState("")
   const [searchResults, setSearchResults] = useState<typeof searchData>([])
+  const [mobileSearchResults, setMobileSearchResults] = useState<typeof searchData>([])
   const searchRef = useRef<HTMLDivElement>(null)
   const dropdownRef = useRef<HTMLDivElement>(null)
+  const router = useRouter()
 
   useEffect(() => {
     if (searchQuery.trim() === "") {
@@ -82,6 +87,19 @@ export default function Header() {
   }, [searchQuery])
 
   useEffect(() => {
+    if (mobileSearchQuery.trim() === "") {
+      setMobileSearchResults([])
+    } else {
+      const filtered = searchData.filter(
+        (item) =>
+          item.title.toLowerCase().includes(mobileSearchQuery.toLowerCase()) ||
+          item.description.toLowerCase().includes(mobileSearchQuery.toLowerCase()),
+      )
+      setMobileSearchResults(filtered)
+    }
+  }, [mobileSearchQuery])
+
+  useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
       if (searchRef.current && !searchRef.current.contains(event.target as Node)) {
         setSearchOpen(false)
@@ -94,6 +112,21 @@ export default function Header() {
     document.addEventListener("mousedown", handleClickOutside)
     return () => document.removeEventListener("mousedown", handleClickOutside)
   }, [])
+
+  const handleMobileLinkClick = (href: string) => {
+    setMobileMenuOpen(false)
+    setMobileActiveDropdown(null)
+    setMobileSearchQuery("")
+    setMobileSearchResults([])
+    router.push(href)
+  }
+
+  const handleMobileSearchClick = (href: string) => {
+    setMobileMenuOpen(false)
+    setMobileSearchQuery("")
+    setMobileSearchResults([])
+    router.push(href)
+  }
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-[#1a1f2e]/95 backdrop-blur-sm border-b border-white/10">
@@ -214,47 +247,83 @@ export default function Header() {
         <div className="px-4 py-4 space-y-2">
           {/* Mobile Search */}
           <div className="pb-4 border-b border-white/10">
-            <input
-              type="text"
-              placeholder="Search..."
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2 text-sm text-white placeholder:text-white/40 focus:outline-none focus:border-[#26a8a8]"
-            />
+            <div className="relative">
+              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-white/40" />
+              <input
+                type="text"
+                placeholder="Search... (try 'website')"
+                value={mobileSearchQuery}
+                onChange={(e) => setMobileSearchQuery(e.target.value)}
+                className="w-full bg-white/5 border border-white/10 rounded-lg pl-10 pr-4 py-3 text-sm text-white placeholder:text-white/40 focus:outline-none focus:border-[#26a8a8]"
+              />
+            </div>
+
+            {mobileSearchResults.length > 0 && (
+              <div className="mt-2 bg-white/5 rounded-lg border border-white/10 overflow-hidden">
+                {mobileSearchResults.map((result, index) => (
+                  <button
+                    key={index}
+                    type="button"
+                    onClick={() => handleMobileSearchClick(result.href)}
+                    className="w-full text-left px-4 py-3 hover:bg-white/10 transition-colors border-b border-white/5 last:border-b-0"
+                  >
+                    <div className="text-sm font-medium text-white">{result.title}</div>
+                    <div className="text-xs text-white/50 mt-0.5">{result.description}</div>
+                  </button>
+                ))}
+              </div>
+            )}
+            {mobileSearchQuery && mobileSearchResults.length === 0 && (
+              <div className="mt-2 px-4 py-4 text-center text-white/40 text-sm bg-white/5 rounded-lg">
+                No results found for "{mobileSearchQuery}"
+              </div>
+            )}
           </div>
 
           {navItems.map((item) => (
-            <div key={item.label}>
+            <div key={item.label} className="border-b border-white/5 last:border-b-0">
               <button
-                className="flex items-center justify-between w-full text-white/80 hover:text-white text-sm font-medium py-2"
-                onClick={() => setActiveDropdown(activeDropdown === item.label ? null : item.label)}
+                type="button"
+                className="flex items-center justify-between w-full text-white/80 hover:text-white text-sm font-medium py-3"
+                onClick={() => setMobileActiveDropdown(mobileActiveDropdown === item.label ? null : item.label)}
               >
                 {item.label}
                 {item.hasDropdown && (
                   <ChevronDown
                     className={cn(
                       "w-4 h-4 transition-transform duration-200",
-                      activeDropdown === item.label && "rotate-180",
+                      mobileActiveDropdown === item.label && "rotate-180",
                     )}
                   />
                 )}
               </button>
-              {item.hasDropdown && activeDropdown === item.label && (
-                <div className="pl-4 py-2 space-y-2">
+
+              {item.hasDropdown && mobileActiveDropdown === item.label && (
+                <div className="pl-4 pb-3 space-y-1">
                   {item.items?.map((subItem) => (
-                    <Link
+                    <button
                       key={subItem.label}
-                      href={subItem.href}
-                      className="block py-2 text-sm text-white/60 hover:text-[#86bc25] transition-colors"
-                      onClick={() => setMobileMenuOpen(false)}
+                      type="button"
+                      onClick={() => handleMobileLinkClick(subItem.href)}
+                      className="block w-full text-left py-2.5 px-3 text-sm text-white/60 hover:text-white hover:bg-white/5 rounded-lg transition-colors"
                     >
                       {subItem.label}
-                    </Link>
+                    </button>
                   ))}
                 </div>
               )}
             </div>
           ))}
+
+          <div className="pt-4 border-t border-white/10">
+            <button
+              type="button"
+              className="flex items-center gap-2 text-white/60 hover:text-white transition-colors py-2"
+            >
+              <Globe className="w-4 h-4" />
+              <span className="text-sm">INDONESIA - ID</span>
+            </button>
+          </div>
         </div>
       </div>
     </header>
