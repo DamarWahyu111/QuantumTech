@@ -1,10 +1,10 @@
 import { Code2, Users, Globe2, Award } from "lucide-react"
 
 const stats = [
-  { icon: Code2, value: "500+", label: "Projects Completed" },
-  { icon: Users, value: "150+", label: "Happy Clients" },
-  { icon: Globe2, value: "25+", label: "Countries Served" },
-  { icon: Award, value: "10+", label: "Years of Excellence" },
+  { icon: Code2, value: "1+", label: "Projects Completed" },
+  { icon: Users, value: "1+", label: "Happy Clients" },
+  { icon: Globe2, value: "1+", label: "Countries Served" },
+  { icon: Award, value: "1+", label: "Years of Excellence" },
 ]
 
 export default function AboutSection() {
