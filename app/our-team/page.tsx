@@ -16,7 +16,7 @@ const teamMembers = [
     email: "damarwah13@gmail.com",
   },
   {
-    name: "Siti Nurhaliza",
+    name: "Naufal",
     role: "Co-Founder & CTO",
     image: "/professional-indonesian-male-cto-tech-executive.jpeg",
     bio: "Ahli dalam arsitektur sistem dan cloud computing",
