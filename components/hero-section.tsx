@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 
 export default function HeroSection() {
@@ -24,9 +25,11 @@ export default function HeroSection() {
             <p className="text-lg md:text-xl text-white/70 font-light">
               Professional Web Solutions for Your Business 2025
             </p>
-            <Button className="bg-[#26a8a8] hover:bg-[#1e8a8a] text-white px-8 py-6 text-base rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-[#26a8a8]/20">
-              Explore now
-            </Button>
+            <Link href="/#services">
+              <Button className="bg-[#26a8a8] hover:bg-[#1e8a8a] text-white px-8 py-6 text-base rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-[#26a8a8]/20">
+                Explore now
+              </Button>
+            </Link>
           </div>
 
           {/* Right Illustration */}
