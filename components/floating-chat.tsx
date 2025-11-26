@@ -8,14 +8,14 @@ const contactOptions = [
   {
     icon: Phone,
     label: "WhatsApp",
-    href: "https://wa.me/6281234567890",
+    href: "https://wa.me/6282327686909",
     color: "#25D366",
     bgColor: "bg-[#25D366]",
   },
   {
     icon: Mail,
     label: "Email",
-    href: "mailto:contact@nexusadvisory.com",
+    href: "damarwah13@gmail.com",
     color: "#26a8a8",
     bgColor: "bg-[#26a8a8]",
   },
