@@ -11,7 +11,7 @@ const teamMembers = [
     role: "Co-Founder & CEO",
     image: "/professional-indonesian-male-ceo-in-suit.jpg",
     bio: "15+ tahun pengalaman di industri teknologi digital",
-    linkedin: "#www.linkedin.com/in/damarwahyuputra",
+    linkedin: "https://www.linkedin.com/in/damarwahyuputra",
     twitter: "#",
     email: "ahmad@quantumtech.id",
   },
