@@ -131,7 +131,9 @@ __turbopack_context__.s([
     ()=>HeroSection
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/node_modules/next/dist/client/app-dir/link.react-server.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/ui/button.tsx [app-rsc] (ecmascript)");
+;
 ;
 ;
 function HeroSection() {
@@ -148,12 +150,12 @@ function HeroSection() {
                     }
                 }, void 0, false, {
                     fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                    lineNumber: 8,
+                    lineNumber: 9,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                lineNumber: 7,
+                lineNumber: 8,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -173,13 +175,13 @@ function HeroSection() {
                                             children: "Excellence"
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                                            lineNumber: 22,
+                                            lineNumber: 23,
                                             columnNumber: 32
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                                    lineNumber: 21,
+                                    lineNumber: 22,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -187,21 +189,28 @@ function HeroSection() {
                                     children: "Professional Web Solutions for Your Business 2025"
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                                    lineNumber: 24,
+                                    lineNumber: 25,
                                     columnNumber: 13
                                 }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Button"], {
-                                    className: "bg-[#26a8a8] hover:bg-[#1e8a8a] text-white px-8 py-6 text-base rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-[#26a8a8]/20",
-                                    children: "Explore now"
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                    href: "/#services",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Button"], {
+                                        className: "bg-[#26a8a8] hover:bg-[#1e8a8a] text-white px-8 py-6 text-base rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-[#26a8a8]/20",
+                                        children: "Explore now"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
+                                        lineNumber: 29,
+                                        columnNumber: 15
+                                    }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                                    lineNumber: 27,
+                                    lineNumber: 28,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                            lineNumber: 20,
+                            lineNumber: 21,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -213,14 +222,14 @@ function HeroSection() {
                                         className: "absolute inset-0 rounded-full border-2 border-[#26a8a8]/50"
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                                        lineNumber: 36,
+                                        lineNumber: 39,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute inset-4 rounded-full border-2 border-[#86bc25]/60"
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                                        lineNumber: 38,
+                                        lineNumber: 41,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -241,7 +250,7 @@ function HeroSection() {
                                                         rx: "4"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                                                        lineNumber: 44,
+                                                        lineNumber: 47,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
@@ -251,7 +260,7 @@ function HeroSection() {
                                                         y2: "65"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                                                        lineNumber: 45,
+                                                        lineNumber: 48,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
@@ -260,7 +269,7 @@ function HeroSection() {
                                                         r: "3"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                                                        lineNumber: 46,
+                                                        lineNumber: 49,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
@@ -269,7 +278,7 @@ function HeroSection() {
                                                         r: "3"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                                                        lineNumber: 47,
+                                                        lineNumber: 50,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
@@ -278,7 +287,7 @@ function HeroSection() {
                                                         r: "3"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                                                        lineNumber: 48,
+                                                        lineNumber: 51,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
@@ -288,7 +297,7 @@ function HeroSection() {
                                                         y2: "75"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                                                        lineNumber: 51,
+                                                        lineNumber: 54,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
@@ -298,7 +307,7 @@ function HeroSection() {
                                                         y2: "85"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                                                        lineNumber: 52,
+                                                        lineNumber: 55,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
@@ -308,7 +317,7 @@ function HeroSection() {
                                                         y2: "95"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                                                        lineNumber: 53,
+                                                        lineNumber: 56,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
@@ -318,7 +327,7 @@ function HeroSection() {
                                                         y2: "105"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                                                        lineNumber: 54,
+                                                        lineNumber: 57,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
@@ -328,7 +337,7 @@ function HeroSection() {
                                                         y2: "115"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                                                        lineNumber: 55,
+                                                        lineNumber: 58,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
@@ -339,7 +348,7 @@ function HeroSection() {
                                                         rx: "3"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                                                        lineNumber: 58,
+                                                        lineNumber: 61,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
@@ -349,7 +358,7 @@ function HeroSection() {
                                                         y2: "90"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                                                        lineNumber: 59,
+                                                        lineNumber: 62,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
@@ -359,7 +368,7 @@ function HeroSection() {
                                                         y2: "100"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                                                        lineNumber: 60,
+                                                        lineNumber: 63,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -367,7 +376,7 @@ function HeroSection() {
                                                         strokeDasharray: "3,3"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                                                        lineNumber: 63,
+                                                        lineNumber: 66,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -375,7 +384,7 @@ function HeroSection() {
                                                         strokeDasharray: "3,3"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                                                        lineNumber: 64,
+                                                        lineNumber: 67,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
@@ -384,7 +393,7 @@ function HeroSection() {
                                                         r: "8"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                                                        lineNumber: 67,
+                                                        lineNumber: 70,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
@@ -393,7 +402,7 @@ function HeroSection() {
                                                         r: "8"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                                                        lineNumber: 68,
+                                                        lineNumber: 71,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
@@ -402,79 +411,79 @@ function HeroSection() {
                                                         r: "5"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                                                        lineNumber: 69,
+                                                        lineNumber: 72,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                                                lineNumber: 42,
+                                                lineNumber: 45,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                                            lineNumber: 41,
+                                            lineNumber: 44,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                                        lineNumber: 40,
+                                        lineNumber: 43,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute top-10 right-10 w-2 h-2 bg-[#86bc25] rounded-full animate-pulse"
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                                        lineNumber: 75,
+                                        lineNumber: 78,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute bottom-20 left-5 w-3 h-3 bg-[#26a8a8] rounded-full animate-pulse delay-300"
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                                        lineNumber: 76,
+                                        lineNumber: 79,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute top-1/2 right-0 w-2 h-2 bg-[#86bc25] rounded-full animate-pulse delay-500"
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                                        lineNumber: 77,
+                                        lineNumber: 80,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                                lineNumber: 34,
+                                lineNumber: 37,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                            lineNumber: 33,
+                            lineNumber: 36,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                    lineNumber: 18,
+                    lineNumber: 19,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                lineNumber: 17,
+                lineNumber: 18,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#2d3548] to-transparent"
             }, void 0, false, {
                 fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-                lineNumber: 84,
+                lineNumber: 87,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/hero-section.tsx",
-        lineNumber: 5,
+        lineNumber: 6,
         columnNumber: 5
     }, this);
 }
@@ -496,22 +505,22 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$
 const stats = [
     {
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$code$2d$xml$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Code2$3e$__["Code2"],
-        value: "500+",
+        value: "1+",
         label: "Projects Completed"
     },
     {
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"],
-        value: "150+",
+        value: "1+",
         label: "Happy Clients"
     },
     {
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$earth$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Globe2$3e$__["Globe2"],
-        value: "25+",
+        value: "1+",
         label: "Countries Served"
     },
     {
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__["Award"],
-        value: "10+",
+        value: "1+",
         label: "Years of Excellence"
     }
 ];

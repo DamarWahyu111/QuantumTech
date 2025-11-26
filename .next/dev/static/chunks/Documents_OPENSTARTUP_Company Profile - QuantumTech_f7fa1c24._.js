@@ -33,9 +33,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__ = __turbopack_context__.i("[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/node_modules/lucide-react/dist/esm/icons/x.js [app-client] (ecmascript) <export default as X>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/lib/utils.ts [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/node_modules/next/navigation.js [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
+;
 ;
 ;
 ;
@@ -52,6 +54,14 @@ const navItems = [
             {
                 label: "Our Team",
                 href: "/our-team"
+            },
+            {
+                label: "Testimonials",
+                href: "/testimonials"
+            },
+            {
+                label: "Submit Testimonial",
+                href: "/submit-testimonial"
             },
             {
                 label: "Company Culture",
@@ -158,6 +168,16 @@ const searchData = [
         href: "/our-team"
     },
     {
+        title: "Testimonials",
+        description: "What our clients say about us",
+        href: "/testimonials"
+    },
+    {
+        title: "Submit Testimonial",
+        description: "Share your experience with us",
+        href: "/submit-testimonial"
+    },
+    {
         title: "Our Vision",
         description: "Building digital futures",
         href: "/#vision"
@@ -177,11 +197,15 @@ function Header() {
     _s();
     const [mobileMenuOpen, setMobileMenuOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [activeDropdown, setActiveDropdown] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
+    const [mobileActiveDropdown, setMobileActiveDropdown] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
     const [searchOpen, setSearchOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [searchQuery, setSearchQuery] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
+    const [mobileSearchQuery, setMobileSearchQuery] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
     const [searchResults, setSearchResults] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
+    const [mobileSearchResults, setMobileSearchResults] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
     const searchRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
     const dropdownRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRouter"])();
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "Header.useEffect": ()=>{
             if (searchQuery.trim() === "") {
@@ -195,6 +219,20 @@ function Header() {
         }
     }["Header.useEffect"], [
         searchQuery
+    ]);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "Header.useEffect": ()=>{
+            if (mobileSearchQuery.trim() === "") {
+                setMobileSearchResults([]);
+            } else {
+                const filtered = searchData.filter({
+                    "Header.useEffect.filtered": (item)=>item.title.toLowerCase().includes(mobileSearchQuery.toLowerCase()) || item.description.toLowerCase().includes(mobileSearchQuery.toLowerCase())
+                }["Header.useEffect.filtered"]);
+                setMobileSearchResults(filtered);
+            }
+        }
+    }["Header.useEffect"], [
+        mobileSearchQuery
     ]);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "Header.useEffect": ()=>{
@@ -213,6 +251,19 @@ function Header() {
             })["Header.useEffect"];
         }
     }["Header.useEffect"], []);
+    const handleMobileLinkClick = (href)=>{
+        setMobileMenuOpen(false);
+        setMobileActiveDropdown(null);
+        setMobileSearchQuery("");
+        setMobileSearchResults([]);
+        router.push(href);
+    };
+    const handleMobileSearchClick = (href)=>{
+        setMobileMenuOpen(false);
+        setMobileSearchQuery("");
+        setMobileSearchResults([]);
+        router.push(href);
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
         className: "fixed top-0 left-0 right-0 z-50 bg-[#1a1f2e]/95 backdrop-blur-sm border-b border-white/10",
         children: [
@@ -233,18 +284,18 @@ function Header() {
                                         children: "Tech"
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                                        lineNumber: 104,
+                                        lineNumber: 141,
                                         columnNumber: 22
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                                lineNumber: 103,
+                                lineNumber: 140,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                            lineNumber: 102,
+                            lineNumber: 139,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -262,13 +313,13 @@ function Header() {
                                                     className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("w-4 h-4 transition-transform duration-200", activeDropdown === item.label && "rotate-180")
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                                                    lineNumber: 118,
+                                                    lineNumber: 155,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                                            lineNumber: 112,
+                                            lineNumber: 149,
                                             columnNumber: 17
                                         }, this),
                                         item.hasDropdown && activeDropdown === item.label && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -280,23 +331,23 @@ function Header() {
                                                     children: subItem.label
                                                 }, subItem.label, false, {
                                                     fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                                                    lineNumber: 130,
+                                                    lineNumber: 167,
                                                     columnNumber: 23
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                                            lineNumber: 128,
+                                            lineNumber: 165,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, item.label, true, {
                                     fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                                    lineNumber: 111,
+                                    lineNumber: 148,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                            lineNumber: 109,
+                            lineNumber: 146,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -314,7 +365,7 @@ function Header() {
                                                     className: "w-4 h-4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                                                    lineNumber: 152,
+                                                    lineNumber: 189,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -322,13 +373,13 @@ function Header() {
                                                     children: "Search"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                                                    lineNumber: 153,
+                                                    lineNumber: 190,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                                            lineNumber: 148,
+                                            lineNumber: 185,
                                             columnNumber: 15
                                         }, this),
                                         searchOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -345,12 +396,12 @@ function Header() {
                                                         autoFocus: true
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                                                        lineNumber: 159,
+                                                        lineNumber: 196,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                                                    lineNumber: 158,
+                                                    lineNumber: 195,
                                                     columnNumber: 19
                                                 }, this),
                                                 searchResults.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -368,7 +419,7 @@ function Header() {
                                                                     children: result.title
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                                                                    lineNumber: 180,
+                                                                    lineNumber: 217,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -376,18 +427,18 @@ function Header() {
                                                                     children: result.description
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                                                                    lineNumber: 181,
+                                                                    lineNumber: 218,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             ]
                                                         }, index, true, {
                                                             fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                                                            lineNumber: 171,
+                                                            lineNumber: 208,
                                                             columnNumber: 25
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                                                    lineNumber: 169,
+                                                    lineNumber: 206,
                                                     columnNumber: 21
                                                 }, this),
                                                 searchQuery && searchResults.length === 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -395,19 +446,19 @@ function Header() {
                                                     children: "No results found"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                                                    lineNumber: 187,
+                                                    lineNumber: 224,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                                            lineNumber: 157,
+                                            lineNumber: 194,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                                    lineNumber: 147,
+                                    lineNumber: 184,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -417,7 +468,7 @@ function Header() {
                                             className: "w-4 h-4"
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                                            lineNumber: 194,
+                                            lineNumber: 231,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -425,26 +476,26 @@ function Header() {
                                             children: "INDONESIA - ID"
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                                            lineNumber: 195,
+                                            lineNumber: 232,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__["ChevronDown"], {
                                             className: "w-4 h-4"
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                                            lineNumber: 196,
+                                            lineNumber: 233,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                                    lineNumber: 193,
+                                    lineNumber: 230,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                            lineNumber: 146,
+                            lineNumber: 183,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -454,29 +505,29 @@ function Header() {
                                 className: "w-6 h-6"
                             }, void 0, false, {
                                 fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                                lineNumber: 202,
+                                lineNumber: 239,
                                 columnNumber: 31
                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
                                 className: "w-6 h-6"
                             }, void 0, false, {
                                 fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                                lineNumber: 202,
+                                lineNumber: 239,
                                 columnNumber: 59
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                            lineNumber: 201,
+                            lineNumber: 238,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                    lineNumber: 101,
+                    lineNumber: 138,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                lineNumber: 100,
+                lineNumber: 137,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -486,84 +537,186 @@ function Header() {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "pb-4 border-b border-white/10",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                type: "text",
-                                placeholder: "Search...",
-                                value: searchQuery,
-                                onChange: (e)=>setSearchQuery(e.target.value),
-                                className: "w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2 text-sm text-white placeholder:text-white/40 focus:outline-none focus:border-[#26a8a8]"
-                            }, void 0, false, {
-                                fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                                lineNumber: 217,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "relative",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$search$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Search$3e$__["Search"], {
+                                            className: "absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-white/40"
+                                        }, void 0, false, {
+                                            fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
+                                            lineNumber: 255,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                            type: "text",
+                                            placeholder: "Search... (try 'website')",
+                                            value: mobileSearchQuery,
+                                            onChange: (e)=>setMobileSearchQuery(e.target.value),
+                                            className: "w-full bg-white/5 border border-white/10 rounded-lg pl-10 pr-4 py-3 text-sm text-white placeholder:text-white/40 focus:outline-none focus:border-[#26a8a8]"
+                                        }, void 0, false, {
+                                            fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
+                                            lineNumber: 256,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
+                                    lineNumber: 254,
+                                    columnNumber: 13
+                                }, this),
+                                mobileSearchResults.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "mt-2 bg-white/5 rounded-lg border border-white/10 overflow-hidden",
+                                    children: mobileSearchResults.map((result, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                            type: "button",
+                                            onClick: ()=>handleMobileSearchClick(result.href),
+                                            className: "w-full text-left px-4 py-3 hover:bg-white/10 transition-colors border-b border-white/5 last:border-b-0",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "text-sm font-medium text-white",
+                                                    children: result.title
+                                                }, void 0, false, {
+                                                    fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
+                                                    lineNumber: 274,
+                                                    columnNumber: 21
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "text-xs text-white/50 mt-0.5",
+                                                    children: result.description
+                                                }, void 0, false, {
+                                                    fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
+                                                    lineNumber: 275,
+                                                    columnNumber: 21
+                                                }, this)
+                                            ]
+                                        }, index, true, {
+                                            fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
+                                            lineNumber: 268,
+                                            columnNumber: 19
+                                        }, this))
+                                }, void 0, false, {
+                                    fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
+                                    lineNumber: 266,
+                                    columnNumber: 15
+                                }, this),
+                                mobileSearchQuery && mobileSearchResults.length === 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "mt-2 px-4 py-4 text-center text-white/40 text-sm bg-white/5 rounded-lg",
+                                    children: [
+                                        'No results found for "',
+                                        mobileSearchQuery,
+                                        '"'
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
+                                    lineNumber: 281,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                            lineNumber: 216,
+                            lineNumber: 253,
                             columnNumber: 11
                         }, this),
                         navItems.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "border-b border-white/5 last:border-b-0",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        className: "flex items-center justify-between w-full text-white/80 hover:text-white text-sm font-medium py-2",
-                                        onClick: ()=>setActiveDropdown(activeDropdown === item.label ? null : item.label),
+                                        type: "button",
+                                        className: "flex items-center justify-between w-full text-white/80 hover:text-white text-sm font-medium py-3",
+                                        onClick: ()=>setMobileActiveDropdown(mobileActiveDropdown === item.label ? null : item.label),
                                         children: [
                                             item.label,
                                             item.hasDropdown && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__["ChevronDown"], {
-                                                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("w-4 h-4 transition-transform duration-200", activeDropdown === item.label && "rotate-180")
+                                                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("w-4 h-4 transition-transform duration-200", mobileActiveDropdown === item.label && "rotate-180")
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                                                lineNumber: 234,
+                                                lineNumber: 296,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                                        lineNumber: 228,
+                                        lineNumber: 289,
                                         columnNumber: 15
                                     }, this),
-                                    item.hasDropdown && activeDropdown === item.label && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "pl-4 py-2 space-y-2",
-                                        children: item.items?.map((subItem)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                href: subItem.href,
-                                                className: "block py-2 text-sm text-white/60 hover:text-[#86bc25] transition-colors",
-                                                onClick: ()=>setMobileMenuOpen(false),
+                                    item.hasDropdown && mobileActiveDropdown === item.label && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "pl-4 pb-3 space-y-1",
+                                        children: item.items?.map((subItem)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                type: "button",
+                                                onClick: ()=>handleMobileLinkClick(subItem.href),
+                                                className: "block w-full text-left py-2.5 px-3 text-sm text-white/60 hover:text-white hover:bg-white/5 rounded-lg transition-colors",
                                                 children: subItem.label
                                             }, subItem.label, false, {
                                                 fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                                                lineNumber: 245,
+                                                lineNumber: 308,
                                                 columnNumber: 21
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                                        lineNumber: 243,
+                                        lineNumber: 306,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, item.label, true, {
                                 fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                                lineNumber: 227,
+                                lineNumber: 288,
                                 columnNumber: 13
-                            }, this))
+                            }, this)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "pt-4 border-t border-white/10",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                type: "button",
+                                className: "flex items-center gap-2 text-white/60 hover:text-white transition-colors py-2",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$globe$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Globe$3e$__["Globe"], {
+                                        className: "w-4 h-4"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
+                                        lineNumber: 327,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "text-sm",
+                                        children: "INDONESIA - ID"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
+                                        lineNumber: 328,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
+                                lineNumber: 323,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
+                            lineNumber: 322,
+                            columnNumber: 11
+                        }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                    lineNumber: 214,
+                    lineNumber: 251,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-                lineNumber: 208,
+                lineNumber: 245,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/header.tsx",
-        lineNumber: 99,
+        lineNumber: 136,
         columnNumber: 5
     }, this);
 }
-_s(Header, "5ZcrCbQFAnubPhLW/boFflldSps=");
+_s(Header, "X12wFLOyQWXXsu/+l176tQx+fVM=", false, function() {
+    return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRouter"]
+    ];
+});
 _c = Header;
 var _c;
 __turbopack_context__.k.register(_c, "Header");
@@ -1168,14 +1321,14 @@ const contactOptions = [
     {
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__["Phone"],
         label: "WhatsApp",
-        href: "https://wa.me/6281234567890",
+        href: "https://wa.me/6282327686909",
         color: "#25D366",
         bgColor: "bg-[#25D366]"
     },
     {
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__["Mail"],
         label: "Email",
-        href: "mailto:contact@nexusadvisory.com",
+        href: "damarwah13@gmail.com",
         color: "#26a8a8",
         bgColor: "bg-[#26a8a8]"
     }
