@@ -14,6 +14,7 @@ const navItems = [
       { label: "About QuantumTech", href: "/#about" },
       { label: "Our Team", href: "/our-team" },
       { label: "Testimonials", href: "/testimonials" },
+      { label: "Submit Testimonial", href: "/submit-testimonial" },
       { label: "Company Culture", href: "/company-culture" },
       { label: "Awards & Recognition", href: "/awards" },
     ],
@@ -57,6 +58,7 @@ const searchData = [
   { title: "About QuantumTech", description: "Learn more about our company", href: "/#about" },
   { title: "Our Team", description: "Meet our professional team", href: "/our-team" },
   { title: "Testimonials", description: "What our clients say about us", href: "/testimonials" },
+  { title: "Submit Testimonial", description: "Share your experience with us", href: "/submit-testimonial" },
   { title: "Our Vision", description: "Building digital futures", href: "/#vision" },
   { title: "Contact Us", description: "Get in touch with our team", href: "/#contact" },
   { title: "Careers", description: "Join our team", href: "/careers" },
@@ -331,3 +333,4 @@ export default function Header() {
     </header>
   )
 }
+  
