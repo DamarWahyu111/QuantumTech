@@ -103,7 +103,7 @@ ${formData.message}
         <CheckCircle className="w-20 h-20 text-emerald-500 mx-auto mb-4 animate-in zoom-in duration-500" />
         <h3 className="text-3xl font-bold text-gray-900 mb-3">Testimonial Anda Sudah Kami Terima!</h3>
         <p className="text-gray-600 text-lg mb-2">Terima kasih atas feedback berharga Anda.</p>
-        <p className="text-gray-500">Email telah dikirim ke damarwah13@gmail.com</p>
+        <p className="text-gray-500">Email telah dikirim ke QuantumTech@id</p>
       </div>
     )
   }
