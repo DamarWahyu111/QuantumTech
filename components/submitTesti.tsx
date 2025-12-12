@@ -42,18 +42,37 @@ export default function SubmitTesti() {
     setError("")
 
     try {
-      const response = await fetch("/api/send-testimonial", {
+      const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({
+          access_key: "5d62e2eb-fc92-4b2b-ad2c-7b7a82633453", // User needs to replace this
+          subject: `Testimonial Baru dari ${formData.name}`,
+          from_name: formData.name,
+          email: formData.email,
+          message: `
+Testimonial Baru!
+
+Nama: ${formData.name}
+Email: ${formData.email}
+Perusahaan: ${formData.company || "-"}
+Jabatan: ${formData.position || "-"}
+Layanan: ${formData.service}
+Rating: ${formData.rating}/5 ⭐
+
+Testimonial:
+${formData.message}
+          `,
+          to: "damarwah13@gmail.com",
+        }),
       })
 
       const data = await response.json()
 
-      if (!response.ok) {
-        throw new Error(data.error || "Gagal mengirim testimonial")
+      if (!response.ok || !data.success) {
+        throw new Error(data.message || "Gagal mengirim testimonial")
       }
 
       // Success - reset form and show success message
