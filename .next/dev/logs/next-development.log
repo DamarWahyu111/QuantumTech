@@ -1,5 +1,101 @@
-[00:00:01.522] Server  LOG      ✓ Ready in 1036ms
-[00:00:06.417] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:08.134] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:08.135] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:08.135] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765553376291}
+[00:00:02.082] Server  LOG      ✓ Ready in 1368ms
+[00:00:06.801] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.915] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:07.047] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:07.047] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:07.047] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765553981239}
+[00:00:08.593] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Documents...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="font-sans antialiased"
+-                           data-new-gr-c-s-check-loaded="14.1266.0"
+-                           data-gr-ext-installed=""
+                          >
+                            ...
+                              <HomePage>
+                                <main className="min-h-screen">
+                                  ...
+                                    <div className="max-w-7xl ...">
+                                      <div className="flex items...">
+                                        <LinkComponent>
+                                        <nav className="hidden md:..." ref={{current:null}}>
+                                          <div className="relative">
+                                            <button
+                                              className="flex items-center gap-1 text-white/80 hover:text-white text-s..."
+                                              onClick={function onClick}
+-                                             fdprocessedid="hnvmow"
+                                            >
+                                          <div className="relative">
+                                            <button
+                                              className="flex items-center gap-1 text-white/80 hover:text-white text-s..."
+                                              onClick={function onClick}
+-                                             fdprocessedid="n1zo4"
+                                            >
+                                          <div className="relative">
+                                            <button
+                                              className="flex items-center gap-1 text-white/80 hover:text-white text-s..."
+                                              onClick={function onClick}
+-                                             fdprocessedid="pl7j87"
+                                            >
+                                          <div className="relative">
+                                            <button
+                                              className="flex items-center gap-1 text-white/80 hover:text-white text-s..."
+                                              onClick={function onClick}
+-                                             fdprocessedid="ueg2ar"
+                                            >
+                                        <div className="hidden md:...">
+                                          <div className="relative" ref={{current:null}}>
+                                            <button
+                                              className="flex items-center gap-2 text-white/80 hover:text-white transi..."
+                                              onClick={function onClick}
+-                                             fdprocessedid="2wfw8a"
+                                            >
+                                          <button
+                                            className="flex items-center gap-2 text-white/80 hover:text-white transiti..."
+-                                           fdprocessedid="fvzd4b"
+                                          >
+                                        ...
+                                  ...
+                                    <LinkComponent>
+                                      <LinkComponent href="/#services">
+                                        <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                          <Button>
+                                            <button
+                                              data-slot="button"
+                                              className={"inline-flex items-center justify-center gap-2 whitespace-no..."}
+-                                             fdprocessedid="w5v4cg"
+                                            >
++                                             Explore now
+                                  ...
+                            ...
+                  ...
+
+[00:00:32.369] Server  LOG      ✓ Compiled in 116ms
