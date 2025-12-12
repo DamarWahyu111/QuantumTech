@@ -3,7 +3,7 @@
 import type React from "react"
 
 import { useState } from "react"
-import { Star, Send, CheckCircle, AlertCircle } from "lucide-react"
+import { Star, Send, CheckCircle, AlertCircle, Loader2 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
@@ -21,6 +21,8 @@ export default function SubmitTesti() {
   })
   const [isSubmitted, setIsSubmitted] = useState(false)
   const [hoveredStar, setHoveredStar] = useState(0)
+  const [isLoading, setIsLoading] = useState(false)
+  const [error, setError] = useState("")
 
   const isFormValid =
     formData.name.trim() !== "" &&
@@ -29,69 +31,60 @@ export default function SubmitTesti() {
     formData.rating > 0 &&
     formData.message.trim().length >= 50
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
 
     if (!isFormValid) {
       return
     }
 
-    const emailTo = "damarwah13@gmail.com"
-    const subject = `Testimonial Baru dari ${formData.name} - QuantumTech`
+    setIsLoading(true)
+    setError("")
 
-    const emailBody = `
-TESTIMONIAL BARU - QUANTUMTECH
-${"=".repeat(50)}
-
-INFORMASI CLIENT
-${"-".repeat(50)}
-Nama Lengkap    : ${formData.name}
-Email           : ${formData.email}
-Perusahaan      : ${formData.company || "-"}
-Jabatan         : ${formData.position || "-"}
-Layanan         : ${formData.service}
-Rating          : ${"⭐".repeat(formData.rating)} (${formData.rating}/5)
-
-TESTIMONIAL
-${"-".repeat(50)}
-${formData.message}
-
-${"=".repeat(50)}
-Dikirim pada: ${new Date().toLocaleString("id-ID", {
-      dateStyle: "full",
-      timeStyle: "short",
-    })}
-
-Catatan: Silakan review testimonial ini sebelum dipublikasikan di website.
-    `.trim()
-
-    // Buka email client dengan data yang sudah diformat
-    const mailtoLink = `mailto:${emailTo}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(emailBody)}`
-    window.location.href = mailtoLink
-
-    // Reset form dan tampilkan sukses
-    setIsSubmitted(true)
-    setTimeout(() => {
-      setFormData({
-        name: "",
-        email: "",
-        company: "",
-        position: "",
-        service: "",
-        rating: 0,
-        message: "",
+    try {
+      const response = await fetch("/api/send-testimonial", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
       })
-      setIsSubmitted(false)
-    }, 5000)
+
+      const data = await response.json()
+
+      if (!response.ok) {
+        throw new Error(data.error || "Gagal mengirim testimonial")
+      }
+
+      // Success - reset form and show success message
+      setIsSubmitted(true)
+      setTimeout(() => {
+        setFormData({
+          name: "",
+          email: "",
+          company: "",
+          position: "",
+          service: "",
+          rating: 0,
+          message: "",
+        })
+        setIsSubmitted(false)
+      }, 5000)
+    } catch (err) {
+      console.error("[v0] Error submitting testimonial:", err)
+      setError(err instanceof Error ? err.message : "Terjadi kesalahan. Silakan coba lagi.")
+    } finally {
+      setIsLoading(false)
+    }
   }
 
   if (isSubmitted) {
     return (
       <div className="max-w-2xl mx-auto p-8 bg-gradient-to-br from-emerald-50 to-teal-50 rounded-2xl border-2 border-emerald-200 text-center animate-in fade-in zoom-in duration-300">
         <CheckCircle className="w-20 h-20 text-emerald-500 mx-auto mb-4 animate-in zoom-in duration-500" />
-        <h3 className="text-3xl font-bold text-gray-900 mb-3">Testimonial Anda Sudah Kami Terima! 🎉</h3>
+        <h3 className="text-3xl font-bold text-gray-900 mb-3">Testimonial Anda Sudah Kami Terima!</h3>
         <p className="text-gray-600 text-lg mb-2">Terima kasih atas feedback berharga Anda.</p>
-        <p className="text-gray-500">Tim kami akan segera meninjau testimonial Anda.</p>
+        <p className="text-gray-500">Email telah dikirim ke damarwah13@gmail.com</p>
       </div>
     )
   }
@@ -272,6 +265,16 @@ Catatan: Silakan review testimonial ini sebelum dipublikasikan di website.
             </div>
           </div>
 
+          {error && (
+            <div className="bg-red-50 border border-red-200 rounded-lg p-4 flex items-start gap-3">
+              <AlertCircle className="w-5 h-5 text-red-600 flex-shrink-0 mt-0.5" />
+              <div className="text-sm">
+                <p className="font-semibold text-red-900 mb-1">Gagal mengirim testimonial</p>
+                <p className="text-red-700">{error}</p>
+              </div>
+            </div>
+          )}
+
           {!isFormValid && (formData.name || formData.email || formData.rating > 0 || formData.message.length > 0) && (
             <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 flex items-start gap-3">
               <AlertCircle className="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" />
@@ -291,15 +294,24 @@ Catatan: Silakan review testimonial ini sebelum dipublikasikan di website.
           {/* Submit Button */}
           <Button
             type="submit"
-            disabled={!isFormValid}
+            disabled={!isFormValid || isLoading}
             className={`w-full py-6 text-lg font-semibold rounded-xl transition-all duration-300 ${
-              isFormValid
+              isFormValid && !isLoading
                 ? "bg-gradient-to-r from-[#26a8a8] to-[#86bc25] hover:from-[#1f8888] hover:to-[#6fa01f] text-white shadow-lg hover:shadow-xl transform hover:scale-[1.02]"
                 : "bg-gray-300 text-gray-500 cursor-not-allowed"
             }`}
           >
-            <Send className="w-5 h-5 mr-2" />
-            {isFormValid ? "Kirim Testimonial" : "Lengkapi Form untuk Mengirim"}
+            {isLoading ? (
+              <>
+                <Loader2 className="w-5 h-5 mr-2 animate-spin" />
+                Mengirim...
+              </>
+            ) : (
+              <>
+                <Send className="w-5 h-5 mr-2" />
+                {isFormValid ? "Kirim Testimonial" : "Lengkapi Form untuk Mengirim"}
+              </>
+            )}
           </Button>
         </form>
       </div>
