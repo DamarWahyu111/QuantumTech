@@ -1,0 +1,3 @@
+module.exports=[23016,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(66449);a.n(d("[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},59167,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(66449);a.n(d("[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/node_modules/next/dist/client/components/builtin/global-error.js"))},67753,a=>{"use strict";a.i(23016);var b=a.i(59167);a.n(b)}];
+
+//# sourceMappingURL=e60e2_next_dist_client_components_builtin_global-error_fc88f690.js.map

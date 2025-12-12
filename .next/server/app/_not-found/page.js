@@ -1,0 +1,13 @@
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/_not-found/page.js")
+R.c("server/chunks/ssr/Documents_OPENSTARTUP_Company Profile - QuantumTech_f29a7c56._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__fc31b7db._.js")
+R.c("server/chunks/ssr/e60e2_next_dist_esm_build_templates_app-page_c6ee02b4.js")
+R.c("server/chunks/ssr/[root-of-the-server]__84f45f9c._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__89299591._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__3e2d0c69._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__ad0db743._.js")
+R.c("server/chunks/ssr/Documents_OPENSTARTUP_Company Profile - QuantumTech_app_not-found_tsx_d208ed48._.js")
+R.c("server/chunks/ssr/e60e2_next_dist_client_components_c65e08a3._.js")
+R.c("server/chunks/ssr/ed796_Profile - QuantumTech__next-internal_server_app__not-found_page_actions_cb8b808f.js")
+R.m(39234)
+module.exports=R.m(39234).exports

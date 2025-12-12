@@ -1,0 +1,18 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/awards/page": "/awards",
+  "/blog/page": "/blog",
+  "/careers/internship/page": "/careers/internship",
+  "/careers/life-at-quantumtech/page": "/careers/life-at-quantumtech",
+  "/careers/open-positions/page": "/careers/open-positions",
+  "/careers/page": "/careers",
+  "/case-studies/page": "/case-studies",
+  "/company-culture/page": "/company-culture",
+  "/our-team/page": "/our-team",
+  "/page": "/",
+  "/submit-testimonial/page": "/submit-testimonial",
+  "/tech-trends/page": "/tech-trends",
+  "/testimonials/page": "/testimonials",
+  "/whitepapers/page": "/whitepapers"
+}

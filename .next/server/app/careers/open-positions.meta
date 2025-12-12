@@ -1,0 +1,17 @@
+{
+  "status": 404,
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/careers/layout,_N_T_/careers/open-positions/layout,_N_T_/careers/open-positions/page,_N_T_/careers/open-positions"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/careers/open-positions/__PAGE__",
+    "/careers/open-positions",
+    "/careers",
+    "/_index",
+    "/_head"
+  ]
+}
