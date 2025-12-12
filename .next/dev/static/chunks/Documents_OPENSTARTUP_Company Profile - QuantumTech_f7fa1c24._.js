@@ -855,6 +855,12 @@ const services = [
 function ServicesSection() {
     _s();
     const [selectedService, setSelectedService] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
+    const handleContactWhatsApp = ()=>{
+        const whatsappNumber = "6281234567890" // Ganti dengan nomor WA Anda (format: 62xxxxxxxxxxx)
+        ;
+        const message = encodeURIComponent(`Halo QuantumTech, saya tertarik dengan layanan ${selectedService?.title}. Bisakah saya mendapatkan informasi lebih lanjut?`);
+        window.open(`https://wa.me/${whatsappNumber}?text=${message}`, "_blank");
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -871,7 +877,7 @@ function ServicesSection() {
                                     children: "What We Do"
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                    lineNumber: 96,
+                                    lineNumber: 104,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -879,7 +885,7 @@ function ServicesSection() {
                                     children: "Our Services"
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                    lineNumber: 97,
+                                    lineNumber: 105,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -887,20 +893,20 @@ function ServicesSection() {
                                     children: "Layanan profesional website untuk memenuhi berbagai kebutuhan digital bisnis Anda"
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                    lineNumber: 98,
+                                    lineNumber: 106,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "h-1 w-20 bg-gradient-to-r from-[#26a8a8] to-[#86bc25] mx-auto mt-6 rounded-full"
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                    lineNumber: 101,
+                                    lineNumber: 109,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                            lineNumber: 95,
+                            lineNumber: 103,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -915,7 +921,7 @@ function ServicesSection() {
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                            lineNumber: 112,
+                                            lineNumber: 120,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -933,12 +939,12 @@ function ServicesSection() {
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                                        lineNumber: 123,
+                                                        lineNumber: 131,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                                    lineNumber: 119,
+                                                    lineNumber: 127,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -946,7 +952,7 @@ function ServicesSection() {
                                                     children: service.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                                    lineNumber: 127,
+                                                    lineNumber: 135,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -954,7 +960,7 @@ function ServicesSection() {
                                                     children: service.description
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                                    lineNumber: 130,
+                                                    lineNumber: 138,
                                                     columnNumber: 19
                                                 }, this),
                                                 service.hasDetail && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -965,7 +971,7 @@ function ServicesSection() {
                                                             children: "Learn more"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                                            lineNumber: 137,
+                                                            lineNumber: 145,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -980,46 +986,46 @@ function ServicesSection() {
                                                                 d: "M17 8l4 4m0 0l-4 4m4-4H3"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                                                lineNumber: 144,
+                                                                lineNumber: 152,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                                            lineNumber: 138,
+                                                            lineNumber: 146,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                                    lineNumber: 133,
+                                                    lineNumber: 141,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                            lineNumber: 117,
+                                            lineNumber: 125,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                    lineNumber: 107,
+                                    lineNumber: 115,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                            lineNumber: 105,
+                            lineNumber: 113,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                    lineNumber: 93,
+                    lineNumber: 101,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                lineNumber: 92,
+                lineNumber: 100,
                 columnNumber: 7
             }, this),
             selectedService && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1030,7 +1036,7 @@ function ServicesSection() {
                         onClick: ()=>setSelectedService(null)
                     }, void 0, false, {
                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                        lineNumber: 163,
+                        lineNumber: 171,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1043,12 +1049,12 @@ function ServicesSection() {
                                     className: "w-5 h-5 text-[#1a1f2e]"
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                    lineNumber: 172,
+                                    lineNumber: 180,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                lineNumber: 168,
+                                lineNumber: 176,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1069,12 +1075,12 @@ function ServicesSection() {
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                            lineNumber: 184,
+                                            lineNumber: 192,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                        lineNumber: 180,
+                                        lineNumber: 188,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1082,7 +1088,7 @@ function ServicesSection() {
                                         children: selectedService.title
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                        lineNumber: 186,
+                                        lineNumber: 194,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1090,13 +1096,13 @@ function ServicesSection() {
                                         children: selectedService.detail?.fullDescription
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                        lineNumber: 187,
+                                        lineNumber: 195,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                lineNumber: 176,
+                                lineNumber: 184,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1107,7 +1113,7 @@ function ServicesSection() {
                                         children: "Fitur Layanan"
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                        lineNumber: 192,
+                                        lineNumber: 200,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1133,17 +1139,17 @@ function ServicesSection() {
                                                                 clipRule: "evenodd"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                                                lineNumber: 206,
+                                                                lineNumber: 214,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                                            lineNumber: 200,
+                                                            lineNumber: 208,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                                        lineNumber: 196,
+                                                        lineNumber: 204,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1151,24 +1157,24 @@ function ServicesSection() {
                                                         children: feature
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                                        lineNumber: 213,
+                                                        lineNumber: 221,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, index, true, {
                                                 fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                                lineNumber: 195,
+                                                lineNumber: 203,
                                                 columnNumber: 19
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                        lineNumber: 193,
+                                        lineNumber: 201,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                lineNumber: 191,
+                                lineNumber: 199,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1179,7 +1185,7 @@ function ServicesSection() {
                                         children: "Proses Kerja"
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                        lineNumber: 221,
+                                        lineNumber: 229,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1195,7 +1201,7 @@ function ServicesSection() {
                                                         children: index + 1
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                                        lineNumber: 225,
+                                                        lineNumber: 233,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1205,7 +1211,7 @@ function ServicesSection() {
                                                                 children: item.step
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                                                lineNumber: 232,
+                                                                lineNumber: 240,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1213,30 +1219,30 @@ function ServicesSection() {
                                                                 children: item.desc
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                                                lineNumber: 233,
+                                                                lineNumber: 241,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                                        lineNumber: 231,
+                                                        lineNumber: 239,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, index, true, {
                                                 fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                                lineNumber: 224,
+                                                lineNumber: 232,
                                                 columnNumber: 19
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                        lineNumber: 222,
+                                        lineNumber: 230,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                lineNumber: 220,
+                                lineNumber: 228,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1249,41 +1255,42 @@ function ServicesSection() {
                                             children: "Tertarik dengan layanan ini?"
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                            lineNumber: 243,
+                                            lineNumber: 251,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                            className: "px-6 py-3 rounded-full text-white font-medium transition-all duration-300 hover:shadow-lg",
+                                            onClick: handleContactWhatsApp,
+                                            className: "px-6 py-3 rounded-full text-white font-medium transition-all duration-300 hover:shadow-lg hover:scale-105",
                                             style: {
                                                 backgroundColor: selectedService.color
                                             },
                                             children: "Hubungi Kami"
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                            lineNumber: 244,
+                                            lineNumber: 252,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                    lineNumber: 242,
+                                    lineNumber: 250,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                                lineNumber: 241,
+                                lineNumber: 249,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                        lineNumber: 166,
+                        lineNumber: 174,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/services-section.tsx",
-                lineNumber: 161,
+                lineNumber: 169,
                 columnNumber: 9
             }, this)
         ]

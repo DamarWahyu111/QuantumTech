@@ -1,5 +1,11 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
+  "/blog/page": "app/blog/page.js",
+  "/careers/internship/page": "app/careers/internship/page.js",
+  "/careers/open-positions/page": "app/careers/open-positions/page.js",
+  "/case-studies/page": "app/case-studies/page.js",
   "/our-team/page": "app/our-team/page.js",
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/submit-testimonial/page": "app/submit-testimonial/page.js",
+  "/testimonials/page": "app/testimonials/page.js"
 }

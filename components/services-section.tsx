@@ -87,6 +87,14 @@ const services = [
 export default function ServicesSection() {
   const [selectedService, setSelectedService] = useState<(typeof services)[0] | null>(null)
 
+  const handleContactWhatsApp = () => {
+    const whatsappNumber = "6281234567890" // Ganti dengan nomor WA Anda (format: 62xxxxxxxxxxx)
+    const message = encodeURIComponent(
+      `Halo QuantumTech, saya tertarik dengan layanan ${selectedService?.title}. Bisakah saya mendapatkan informasi lebih lanjut?`,
+    )
+    window.open(`https://wa.me/${whatsappNumber}?text=${message}`, "_blank")
+  }
+
   return (
     <>
       <section id="services" className="py-24 bg-white">
@@ -242,7 +250,8 @@ export default function ServicesSection() {
               <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
                 <p className="text-[#4a5568] text-sm">Tertarik dengan layanan ini?</p>
                 <button
-                  className="px-6 py-3 rounded-full text-white font-medium transition-all duration-300 hover:shadow-lg"
+                  onClick={handleContactWhatsApp}
+                  className="px-6 py-3 rounded-full text-white font-medium transition-all duration-300 hover:shadow-lg hover:scale-105"
                   style={{ backgroundColor: selectedService.color }}
                 >
                   Hubungi Kami

@@ -4,6 +4,7 @@ import Header from "@/components/header"
 import Footer from "@/components/footer"
 import FloatingChat from "@/components/floating-chat"
 import { Linkedin, Twitter, Mail, ChevronLeft, ChevronRight } from "lucide-react"
+import { notFound } from "next/navigation"
 
 const teamMembers = [
   {
@@ -24,7 +25,7 @@ const teamMembers = [
     twitter: "#",
     email: "siti@quantumtech.id",
   },
-  {
+  { 
     name: "Budi Santoso",
     role: "Co-Founder & CDO",
     image: "/professional-indonesian-male-creative-director-des.jpg",
@@ -54,6 +55,7 @@ const teamMembers = [
 ]
 
 export default function OurTeamPage() {
+  notFound() 
   return (
     <main className="min-h-screen bg-[#0d1117]">
       <Header />
@@ -99,7 +101,7 @@ export default function OurTeamPage() {
               <div className="bg-white/10 border border-white/20 px-4 py-4 rounded-xl text-center w-40">
                 <p className="text-white font-semibold text-sm">CTO</p>
                 <p className="text-[#26a8a8] text-xs">Co-Founder</p>
-                <p className="text-white/50 text-sm">Siti Nurhaliza</p>
+                <p className="text-white/50 text-sm">Naufal</p>
               </div>
 
               {/* CDO */}

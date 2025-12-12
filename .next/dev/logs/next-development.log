@@ -1,29 +1,345 @@
-[00:00:02.149] Server  LOG      ✓ Ready in 1480ms
-[00:00:07.259] Server  WARN     ⚠ Cross origin request detected from 192.168.1.40 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
-Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:00:07.322] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:07.751] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:07.751] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:07.751] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.1.40:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.1.40:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764138676437}
-[00:00:12.569] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:00:12.569] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.1.40:3001/our-team color: rgb(120, 120, 120) color: inherit {"dp":"/our-team","o":"http://192.168.1.40:3001/our-team","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764138681375}
-[00:00:15.131] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:15.299] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:15.299] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/our-team","route":"/our-team"}
-[00:00:15.299] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.1.40:3001/our-team color: rgb(120, 120, 120) color: inherit {"dp":"/our-team","o":"http://192.168.1.40:3001/our-team","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764138684106}
-[00:01:07.780] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:07.950] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:01:07.950] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/our-team","route":"/our-team"}
-[00:01:07.950] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.1.40:3001/our-team color: rgb(120, 120, 120) color: inherit {"dp":"/our-team","o":"http://192.168.1.40:3001/our-team","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764138736756}
-[00:01:16.353] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:16.542] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:01:16.542] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/our-team","route":"/our-team"}
-[00:01:16.542] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.1.40:3001/our-team color: rgb(120, 120, 120) color: inherit {"dp":"/our-team","o":"http://192.168.1.40:3001/our-team","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764138745345}
-[00:01:44.859] Server  LOG      ✓ Compiled in 130ms
-[00:01:52.778] Server  LOG      ✓ Compiled in 100ms
-[00:01:53.324] Server  LOG      ✓ Compiled in 94ms
-[00:01:53.743] Server  LOG      ✓ Compiled in 137ms
-[00:01:53.893] Server  LOG      ✓ Compiled in 112ms
-[00:01:57.347] Server  LOG      ✓ Compiled in 97ms
-[00:01:58.121] Server  LOG      ✓ Compiled in 94ms
-[00:01:58.886] Server  LOG      ✓ Compiled in 107ms
+[00:00:02.358] Server  LOG      ✓ Ready in 1663ms
+[00:00:10.768] Server  LOG      ○ Compiling / ...
+[00:00:12.166] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:13.464] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:13.464] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:13.465] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765550273061}
+[00:01:08.472] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:08.622] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:08.622] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/submit-testimonial","route":"/submit-testimonial"}
+[00:01:08.622] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/submit-testimonial color: rgb(120, 120, 120) color: inherit {"dp":"/submit-testimonial","o":"http://localhost:3001/submit-testimonial","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765550328881}
+[00:01:13.778] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:01:13.778] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/our-team color: rgb(120, 120, 120) color: inherit {"dp":"/our-team","o":"http://localhost:3001/our-team","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765550334027}
+[00:01:22.012] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/#about color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/#about","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765550342255}
+[00:10:05.213] Server  LOG      ✓ Compiled in 536.7s
+[00:10:47.780] Server  LOG      ✓ Compiled in 42.6s
+[00:10:47.994] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:48.237] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:10:48.237] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:10:48.237] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/#about color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/#about","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765550908488}
+[00:11:06.860] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:11:06.860] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/submit-testimonial color: rgb(120, 120, 120) color: inherit {"dp":"/submit-testimonial","o":"http://localhost:3001/submit-testimonial","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765550927116}
+[00:11:16.534] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/testimonials color: rgb(120, 120, 120) color: inherit {"dp":"/testimonials","o":"http://localhost:3001/testimonials","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765550936790}
+[00:11:23.621] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/our-team color: rgb(120, 120, 120) color: inherit {"dp":"/our-team","o":"http://localhost:3001/our-team","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765550943802}
+[00:11:32.382] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/#services color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/#services","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765550952627}
+[00:12:41.125] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/blog color: rgb(120, 120, 120) color: inherit {"dp":"/blog","o":"http://localhost:3001/blog","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765551021372}
+[00:12:42.563] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/case-studies color: rgb(120, 120, 120) color: inherit {"dp":"/case-studies","o":"http://localhost:3001/case-studies","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765551022812}
+[00:12:45.616] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/our-team color: rgb(120, 120, 120) color: inherit {"dp":"/our-team","o":"http://localhost:3001/our-team","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765551025854}
+[00:15:59.313] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/#about color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/#about","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765551219565}
+[00:17:50.398] Server  LOG      ✓ Compiled in 137ms
+[00:18:26.362] Server  LOG      ✓ Compiled in 107ms
+[00:18:27.955] Server  LOG      ✓ Compiled in 112ms
+[00:18:28.121] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:18:28.255] Server  LOG      ✓ Compiled in 0ms
+[00:18:30.130] Server  LOG      ✓ Compiled in 332ms
+[00:18:30.339] Browser ERROR   ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx:9:1
+Parsing ecmascript source code failed
+   7 | import 
+   8 |
+>  9 | const teamMembers = [
+     | ^^^^^
+  10 |   {
+  11 |     name: "Damar Wahyu Putra",
+  12 |     role: "Co-Founder & CEO",
+
+Expected 'from', got 'const'
+
+Import traces:
+  Client Component Browser:
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Client Component Browser]
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Client Component SSR]
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Server Component]
+[00:18:30.339] Browser ERROR   ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx:9:1
+Parsing ecmascript source code failed
+   7 | import 
+   8 |
+>  9 | const teamMembers = [
+     | ^^^^^
+  10 |   {
+  11 |     name: "Damar Wahyu Putra",
+  12 |     role: "Co-Founder & CEO",
+
+Expected 'from', got 'const'
+
+Import traces:
+  Client Component Browser:
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Client Component Browser]
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Client Component SSR]
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Server Component]
+[00:18:31.189] Browser ERROR   ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx:9:1
+Parsing ecmascript source code failed
+   7 | import {}
+   8 |
+>  9 | const teamMembers = [
+     | ^^^^^
+  10 |   {
+  11 |     name: "Damar Wahyu Putra",
+  12 |     role: "Co-Founder & CEO",
+
+Expected 'from', got 'const'
+
+Import traces:
+  Client Component Browser:
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Client Component Browser]
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Client Component SSR]
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Server Component]
+[00:18:31.189] Browser ERROR   ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx:9:1
+Parsing ecmascript source code failed
+   7 | import {}
+   8 |
+>  9 | const teamMembers = [
+     | ^^^^^
+  10 |   {
+  11 |     name: "Damar Wahyu Putra",
+  12 |     role: "Co-Founder & CEO",
+
+Expected 'from', got 'const'
+
+Import traces:
+  Client Component Browser:
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Client Component Browser]
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Client Component SSR]
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Server Component]
+[00:18:32.155] Browser ERROR   ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx:9:1
+Parsing ecmascript source code failed
+   7 | import {}
+   8 |
+>  9 | const teamMembers = [
+     | ^^^^^
+  10 |   {
+  11 |     name: "Damar Wahyu Putra",
+  12 |     role: "Co-Founder & CEO",
+
+Expected 'from', got 'const'
+
+Import traces:
+  Client Component Browser:
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Client Component Browser]
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Client Component SSR]
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Server Component]
+[00:18:32.404] Browser ERROR   uncaughtError: Error: ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx:9:1
+Parsing ecmascript source code failed
+   7 | import 
+   8 |
+>  9 | const teamMembers = [
+     | ^^^^^
+  10 |   {
+  11 |     name: "Damar Wahyu Putra",
+  12 |     role: "Co-Founder & CEO",
+
+Expected 'from', got 'const'
+
+Import traces:
+  Client Component Browser:
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Client Component Browser]
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Client Component SSR]
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Server Component]
+
+
+[00:18:32.585] Browser ERROR   ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx:9:1
+Parsing ecmascript source code failed
+   7 | import {}
+   8 |
+>  9 | const teamMembers = [
+     | ^^^^^
+  10 |   {
+  11 |     name: "Damar Wahyu Putra",
+  12 |     role: "Co-Founder & CEO",
+
+Expected 'from', got 'const'
+
+Import traces:
+  Client Component Browser:
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Client Component Browser]
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Client Component SSR]
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Server Component]
+[00:18:32.804] Browser ERROR   ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx:9:1
+Parsing ecmascript source code failed
+   7 | import { }
+   8 |
+>  9 | const teamMembers = [
+     | ^^^^^
+  10 |   {
+  11 |     name: "Damar Wahyu Putra",
+  12 |     role: "Co-Founder & CEO",
+
+Expected 'from', got 'const'
+
+Import traces:
+  Client Component Browser:
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Client Component Browser]
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Client Component SSR]
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Server Component]
+[00:18:33.141] Browser ERROR   ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx:9:1
+Parsing ecmascript source code failed
+   7 | import { n}
+   8 |
+>  9 | const teamMembers = [
+     | ^^^^^
+  10 |   {
+  11 |     name: "Damar Wahyu Putra",
+  12 |     role: "Co-Founder & CEO",
+
+Expected 'from', got 'const'
+
+Import traces:
+  Client Component Browser:
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Client Component Browser]
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Client Component SSR]
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Server Component]
+[00:18:34.698] Browser ERROR   ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx:9:1
+Parsing ecmascript source code failed
+   7 | import { not}
+   8 |
+>  9 | const teamMembers = [
+     | ^^^^^
+  10 |   {
+  11 |     name: "Damar Wahyu Putra",
+  12 |     role: "Co-Founder & CEO",
+
+Expected 'from', got 'const'
+
+Import traces:
+  Client Component Browser:
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Client Component Browser]
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Client Component SSR]
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Server Component]
+[00:18:35.375] Browser ERROR   ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx:9:1
+Parsing ecmascript source code failed
+   7 | import { notfo}
+   8 |
+>  9 | const teamMembers = [
+     | ^^^^^
+  10 |   {
+  11 |     name: "Damar Wahyu Putra",
+  12 |     role: "Co-Founder & CEO",
+
+Expected 'from', got 'const'
+
+Import traces:
+  Client Component Browser:
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Client Component Browser]
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Client Component SSR]
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Server Component]
+[00:18:35.509] Browser ERROR   ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx:9:1
+Parsing ecmascript source code failed
+   7 | import { notfou}
+   8 |
+>  9 | const teamMembers = [
+     | ^^^^^
+  10 |   {
+  11 |     name: "Damar Wahyu Putra",
+  12 |     role: "Co-Founder & CEO",
+
+Expected 'from', got 'const'
+
+Import traces:
+  Client Component Browser:
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Client Component Browser]
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Client Component SSR]
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Server Component]
+[00:18:36.702] Server  LOG      ✓ Compiled in 147ms
+[00:18:37.012] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:37.310] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:18:37.310] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:18:37.310] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/#about color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/#about","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765551377569}
+[00:18:42.479] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:18:42.479] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/our-team color: rgb(120, 120, 120) color: inherit {"dp":"/our-team","o":"http://localhost:3001/our-team","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765551382728}
+[00:19:46.426] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/submit-testimonial color: rgb(120, 120, 120) color: inherit {"dp":"/submit-testimonial","o":"http://localhost:3001/submit-testimonial","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765551446684}
+[00:19:48.474] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765551448722}
+[00:20:05.772] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/careers/open-positions color: rgb(120, 120, 120) color: inherit {"dp":"/careers/open-positions","o":"http://localhost:3001/careers/open-positions","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765551466019}
+[00:20:07.704] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/careers/internship color: rgb(120, 120, 120) color: inherit {"dp":"/careers/internship","o":"http://localhost:3001/careers/internship","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765551467953}
+[00:20:09.453] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/#about color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/#about","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765551469706}
+[00:20:11.807] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/our-team color: rgb(120, 120, 120) color: inherit {"dp":"/our-team","o":"http://localhost:3001/our-team","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765551472053}
+[00:22:10.771] Server  LOG      ✓ Compiled in 99ms
+[00:22:21.964] Server  LOG      ✓ Compiled in 94ms
+[00:22:46.495] Server  LOG      ✓ Compiled in 117ms
+[00:22:46.861] Server  LOG      ✓ Compiled in 98ms
+[00:22:47.057] Server  LOG      ✓ Compiled in 164ms
+[00:22:47.086] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:22:47.086] Browser ERROR   uncaughtError: ReferenceError: n is not defined
+[00:22:47.567] Server  ERROR   C:\Users\drcom\Documents\OPENSTARTUP\Company Profile - QuantumTech\.next\dev\server\chunks\ssr\Documents_OPENSTARTUP_Company Profile - QuantumTech_6f2c5c72._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:22:47.570] Server  ERROR    ⨯ ReferenceError: not is not defined
+[00:22:47.596] Server  LOG      ✓ Compiled in 144ms
+[00:22:47.596] Browser ERROR   uncaughtError: ReferenceError: no is not defined
+[00:22:47.602] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:22:47.786] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:48.465] Browser ERROR   uncaughtError: ReferenceError: not is not defined
+[00:22:48.846] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:22:49.208] Server  LOG      ✓ Compiled in 182ms
+[00:22:49.424] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:49.633] Server  LOG      ✓ Compiled in 123ms
+[00:22:50.461] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:22:50.461] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/our-team","route":"/our-team"}
+[00:22:50.461] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/our-team color: rgb(120, 120, 120) color: inherit {"dp":"/our-team","o":"http://localhost:3001/our-team","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765551629967}
+[00:22:51.847] Server  LOG      ✓ Compiled in 132ms
+[00:22:52.460] Browser ERROR   ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx:59:3
+Parsing ecmascript source code failed
+  57 | export default function OurTeamPage() {
+  58 |   notFound() /
+> 59 |   return (
+     |   ^^^^^^
+  60 |     <main className="min-h-screen bg-[#0d1117]">
+  61 |       <Header />
+  62 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Client Component Browser]
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Client Component SSR]
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/our-team/page.tsx [Server Component]
+[00:23:06.901] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:07.105] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:23:07.105] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/our-team","route":"/our-team"}
+[00:23:07.105] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/our-team color: rgb(120, 120, 120) color: inherit {"dp":"/our-team","o":"http://localhost:3001/our-team","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765551647366}
+[00:23:10.279] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:23:10.279] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765551650531}
+[00:24:00.464] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/our-team color: rgb(120, 120, 120) color: inherit {"dp":"/our-team","o":"http://localhost:3001/our-team","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765551700712}
+[00:24:02.202] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/testimonials color: rgb(120, 120, 120) color: inherit {"dp":"/testimonials","o":"http://localhost:3001/testimonials","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765551702451}
+[00:24:04.701] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/submit-testimonial color: rgb(120, 120, 120) color: inherit {"dp":"/submit-testimonial","o":"http://localhost:3001/submit-testimonial","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765551704937}
+[00:30:07.584] Server  LOG      ✓ Compiled in 110ms
+[00:30:11.443] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:30:11.682] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:30:11.682] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/submit-testimonial","route":"/submit-testimonial"}
+[00:30:11.682] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/submit-testimonial color: rgb(120, 120, 120) color: inherit {"dp":"/submit-testimonial","o":"http://localhost:3001/submit-testimonial","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765552071926}
