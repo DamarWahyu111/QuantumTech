@@ -23,7 +23,7 @@ const navItems = [
     label: "What we do",
     hasDropdown: true,
     items: [
-      { label: "Web Design", href: "/#services" },
+      // { label: "Web Design", href: "/#services" },
       { label: "Web Development", href: "/#services" },
       { label: "Website Responsive", href: "/#services" },
       { label: "E-Commerce Solutions", href: "/#services" },

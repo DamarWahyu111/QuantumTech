@@ -73,10 +73,7 @@ const navItems = [
         label: "What we do",
         hasDropdown: true,
         items: [
-            {
-                label: "Web Design",
-                href: "/#services"
-            },
+            // { label: "Web Design", href: "/#services" },
             {
                 label: "Web Development",
                 href: "/#services"
@@ -372,7 +369,7 @@ function Header() {
                                                     className: "p-3 border-b border-white/10",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                         type: "text",
-                                                        placeholder: "Search... (try 'website')",
+                                                        placeholder: "Search...",
                                                         value: searchQuery,
                                                         onChange: (e)=>setSearchQuery(e.target.value),
                                                         className: "w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2 text-sm text-white placeholder:text-white/40 focus:outline-none focus:border-[#26a8a8]",
@@ -705,7 +702,6 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$palette$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Palette$3e$__ = __turbopack_context__.i("[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/node_modules/lucide-react/dist/esm/icons/palette.js [app-ssr] (ecmascript) <export default as Palette>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$code$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Code$3e$__ = __turbopack_context__.i("[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/node_modules/lucide-react/dist/esm/icons/code.js [app-ssr] (ecmascript) <export default as Code>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$smartphone$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Smartphone$3e$__ = __turbopack_context__.i("[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/node_modules/lucide-react/dist/esm/icons/smartphone.js [app-ssr] (ecmascript) <export default as Smartphone>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__ = __turbopack_context__.i("[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/node_modules/lucide-react/dist/esm/icons/x.js [app-ssr] (ecmascript) <export default as X>");
@@ -714,42 +710,32 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$
 ;
 ;
 const services = [
-    {
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$palette$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Palette$3e$__["Palette"],
-        title: "Web Design",
-        description: "Desain website modern dan kreatif yang menarik perhatian pengunjung dan meningkatkan brand awareness bisnis Anda.",
-        color: "#26a8a8",
-        hasDetail: true,
-        detail: {
-            fullDescription: "Layanan Web Design kami menghadirkan solusi desain website yang tidak hanya indah secara visual, tetapi juga fungsional dan user-friendly. Tim desainer kami yang berpengalaman akan bekerja sama dengan Anda untuk menciptakan identitas digital yang unik dan memorable.",
-            features: [
-                "UI/UX Design yang intuitive dan modern",
-                "Custom graphics dan ilustrasi",
-                "Brand identity integration",
-                "Prototype dan mockup interaktif",
-                "Design system yang konsisten",
-                "Cross-browser compatibility design"
-            ],
-            process: [
-                {
-                    step: "Discovery",
-                    desc: "Memahami kebutuhan dan visi bisnis Anda"
-                },
-                {
-                    step: "Wireframing",
-                    desc: "Membuat blueprint struktur website"
-                },
-                {
-                    step: "Visual Design",
-                    desc: "Mengembangkan desain visual yang menarik"
-                },
-                {
-                    step: "Review & Revisi",
-                    desc: "Penyempurnaan berdasarkan feedback"
-                }
-            ]
-        }
-    },
+    // {
+    //   icon: Palette,
+    //   title: "Web Design",
+    //   description:
+    //     "Desain website modern dan kreatif yang menarik perhatian pengunjung dan meningkatkan brand awareness bisnis Anda.",
+    //   color: "#26a8a8",
+    //   hasDetail: true,
+    //   detail: {
+    //     fullDescription:
+    //       "Layanan Web Design kami menghadirkan solusi desain website yang tidak hanya indah secara visual, tetapi juga fungsional dan user-friendly. Tim desainer kami yang berpengalaman akan bekerja sama dengan Anda untuk menciptakan identitas digital yang unik dan memorable.",
+    //     features: [
+    //       "UI/UX Design yang intuitive dan modern",
+    //       "Custom graphics dan ilustrasi",
+    //       "Brand identity integration",
+    //       "Prototype dan mockup interaktif",
+    //       "Design system yang konsisten",
+    //       "Cross-browser compatibility design",
+    //     ],
+    //     process: [
+    //       { step: "Discovery", desc: "Memahami kebutuhan dan visi bisnis Anda" },
+    //       { step: "Wireframing", desc: "Membuat blueprint struktur website" },
+    //       { step: "Visual Design", desc: "Mengembangkan desain visual yang menarik" },
+    //       { step: "Review & Revisi", desc: "Penyempurnaan berdasarkan feedback" },
+    //     ],
+    //   },
+    // },
     {
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$smartphone$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Smartphone$3e$__["Smartphone"],
         title: "Website Responsive",

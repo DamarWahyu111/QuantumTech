@@ -4,32 +4,32 @@ import { useState } from "react"
 import { Palette, Code, Smartphone, X } from "lucide-react"
 
 const services = [
-  {
-    icon: Palette,
-    title: "Web Design",
-    description:
-      "Desain website modern dan kreatif yang menarik perhatian pengunjung dan meningkatkan brand awareness bisnis Anda.",
-    color: "#26a8a8",
-    hasDetail: true,
-    detail: {
-      fullDescription:
-        "Layanan Web Design kami menghadirkan solusi desain website yang tidak hanya indah secara visual, tetapi juga fungsional dan user-friendly. Tim desainer kami yang berpengalaman akan bekerja sama dengan Anda untuk menciptakan identitas digital yang unik dan memorable.",
-      features: [
-        "UI/UX Design yang intuitive dan modern",
-        "Custom graphics dan ilustrasi",
-        "Brand identity integration",
-        "Prototype dan mockup interaktif",
-        "Design system yang konsisten",
-        "Cross-browser compatibility design",
-      ],
-      process: [
-        { step: "Discovery", desc: "Memahami kebutuhan dan visi bisnis Anda" },
-        { step: "Wireframing", desc: "Membuat blueprint struktur website" },
-        { step: "Visual Design", desc: "Mengembangkan desain visual yang menarik" },
-        { step: "Review & Revisi", desc: "Penyempurnaan berdasarkan feedback" },
-      ],
-    },
-  },
+  // {
+  //   icon: Palette,
+  //   title: "Web Design",
+  //   description:
+  //     "Desain website modern dan kreatif yang menarik perhatian pengunjung dan meningkatkan brand awareness bisnis Anda.",
+  //   color: "#26a8a8",
+  //   hasDetail: true,
+  //   detail: {
+  //     fullDescription:
+  //       "Layanan Web Design kami menghadirkan solusi desain website yang tidak hanya indah secara visual, tetapi juga fungsional dan user-friendly. Tim desainer kami yang berpengalaman akan bekerja sama dengan Anda untuk menciptakan identitas digital yang unik dan memorable.",
+  //     features: [
+  //       "UI/UX Design yang intuitive dan modern",
+  //       "Custom graphics dan ilustrasi",
+  //       "Brand identity integration",
+  //       "Prototype dan mockup interaktif",
+  //       "Design system yang konsisten",
+  //       "Cross-browser compatibility design",
+  //     ],
+  //     process: [
+  //       { step: "Discovery", desc: "Memahami kebutuhan dan visi bisnis Anda" },
+  //       { step: "Wireframing", desc: "Membuat blueprint struktur website" },
+  //       { step: "Visual Design", desc: "Mengembangkan desain visual yang menarik" },
+  //       { step: "Review & Revisi", desc: "Penyempurnaan berdasarkan feedback" },
+  //     ],
+  //   },
+  // },
   {
     icon: Smartphone,
     title: "Website Responsive",

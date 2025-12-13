@@ -77,10 +77,7 @@ const navItems = [
         label: "What we do",
         hasDropdown: true,
         items: [
-            {
-                label: "Web Design",
-                href: "/#services"
-            },
+            // { label: "Web Design", href: "/#services" },
             {
                 label: "Web Development",
                 href: "/#services"
@@ -389,7 +386,7 @@ function Header() {
                                                     className: "p-3 border-b border-white/10",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                         type: "text",
-                                                        placeholder: "Search... (try 'website')",
+                                                        placeholder: "Search...",
                                                         value: searchQuery,
                                                         onChange: (e)=>setSearchQuery(e.target.value),
                                                         className: "w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2 text-sm text-white placeholder:text-white/40 focus:outline-none focus:border-[#26a8a8]",
