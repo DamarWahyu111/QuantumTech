@@ -14,7 +14,7 @@ export default function TestimonialsPage() {
 
   const filteredTestimonials = filter === "all" ? testimonials : testimonials.filter((t) => t.service === filter)
 
-  const services = ["all", "Web Design", "Website Responsive", "Web Development"]
+  const services = ["all", "Website Responsive", "Web Development"]
 
   const hasTestimonials = testimonials.length > 0
 
