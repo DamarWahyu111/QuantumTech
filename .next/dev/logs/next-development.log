@@ -1,6 +1,111 @@
-[00:00:02.441] Server  LOG      ✓ Ready in 1828ms
-[00:00:05.511] Server  LOG      ○ Compiling / ...
-[00:00:09.049] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:10.996] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:10.996] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:10.996] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765864443603}
+[00:00:01.885] Server  LOG      ✓ Ready in 1215ms
+[00:00:07.552] Server  WARN     ⚠ Cross origin request detected from 172.31.144.1 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[00:00:07.601] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:10.058] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:10.058] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:10.058] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://172.31.144.1:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://172.31.144.1:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765865017876}
+[00:00:10.807] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:00:10.807] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://172.31.144.1:3001/submit-testimonial color: rgb(120, 120, 120) color: inherit {"dp":"/submit-testimonial","o":"http://172.31.144.1:3001/submit-testimonial","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765865018620}
+[00:00:49.406] Server  LOG      ✓ Compiled in 146ms
+[00:00:49.625] Server  LOG      ✓ Compiled in 103ms
+[00:00:51.017] Server  LOG      ✓ Compiled in 117ms
+[00:00:52.632] Server  LOG      ✓ Compiled in 118ms
+[00:00:53.622] Server  LOG      ✓ Compiled in 91ms
+[00:00:53.782] Server  LOG      ✓ Compiled in 90ms
+[00:00:53.961] Server  LOG      ✓ Compiled in 91ms
+[00:00:55.890] Server  LOG      ✓ Compiled in 79ms
+[00:01:00.282] Server  LOG      ✓ Compiled in 101ms
+[00:01:00.374] Server  LOG      ✓ Compiled in 87ms
+[00:01:00.515] Server  LOG      ✓ Compiled in 87ms
+[00:01:00.763] Server  LOG      ✓ Compiled in 78ms
+[00:01:01.026] Server  LOG      ✓ Compiled in 82ms
+[00:01:01.180] Server  LOG      ✓ Compiled in 108ms
+[00:01:01.334] Server  LOG      ✓ Compiled in 99ms
+[00:01:27.283] Server  LOG      ✓ Compiled in 82ms
+[00:01:36.997] Server  LOG      ✓ Compiled in 77ms
+[00:01:38.687] Server  LOG      ✓ Compiled in 75ms
+[00:01:41.923] Server  LOG      ✓ Compiled in 99ms
+[00:01:44.474] Server  LOG      ✓ Compiled in 80ms
+[00:01:45.797] Server  LOG      ✓ Compiled in 99ms
+[00:01:46.673] Browser ERROR   ./Documents/OPENSTARTUP/Company Profile - QuantumTech/components/submitTesti.tsx:86:11
+Parsing ecmascript source code failed
+  84 |           company: ""
+  85 |           // position: ""
+> 86 |           service: "",
+     |           ^^^^^^^
+  87 |           rating: 0,
+  88 |           message: "",
+  89 |         })
+
+Expected ',', got 'service'
+
+Import traces:
+  Client Component Browser:
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/components/submitTesti.tsx [Client Component Browser]
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/submit-testimonial/page.tsx [Client Component Browser]
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/submit-testimonial/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/components/submitTesti.tsx [Client Component SSR]
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/submit-testimonial/page.tsx [Client Component SSR]
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/submit-testimonial/page.tsx [Server Component]
+[00:01:57.288] Server  LOG      ✓ Compiled in 76ms
+[00:01:57.672] Browser ERROR   ./Documents/OPENSTARTUP/Company Profile - QuantumTech/components/submitTesti.tsx:86:11
+Parsing ecmascript source code failed
+  84 |           company: ""
+  85 |           // position: ""
+> 86 |           service: "",
+     |           ^^^^^^^
+  87 |           rating: 0,
+  88 |           message: "",
+  89 |         })
+
+Expected ',', got 'service'
+
+Import traces:
+  Client Component Browser:
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/components/submitTesti.tsx [Client Component Browser]
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/submit-testimonial/page.tsx [Client Component Browser]
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/submit-testimonial/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/components/submitTesti.tsx [Client Component SSR]
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/submit-testimonial/page.tsx [Client Component SSR]
+    ./Documents/OPENSTARTUP/Company Profile - QuantumTech/app/submit-testimonial/page.tsx [Server Component]
+[00:01:58.136] Server  LOG      ✓ Compiled in 77ms
+[00:01:58.479] Server  LOG      ✓ Compiled in 72ms
+[00:02:01.327] Server  LOG      ✓ Compiled in 80ms
+[00:02:05.599] Server  LOG      ✓ Compiled in 83ms
+[00:02:09.305] Server  LOG      ✓ Compiled in 79ms
+[00:02:12.305] Server  LOG      ✓ Compiled in 88ms
+[00:02:12.922] Server  LOG      ✓ Compiled in 88ms
+[00:02:21.069] Server  LOG      ✓ Compiled in 74ms
+[00:02:21.393] Server  LOG      ✓ Compiled in 71ms
+[00:02:21.583] Server  LOG      ✓ Compiled in 95ms
+[00:02:22.415] Server  LOG      ✓ Compiled in 88ms
+[00:02:27.203] Server  LOG      ✓ Compiled in 82ms
+[00:02:27.573] Server  LOG      ✓ Compiled in 85ms
+[00:02:27.978] Server  LOG      ✓ Compiled in 86ms
+[00:02:28.286] Server  LOG      ✓ Compiled in 111ms
+[00:02:28.689] Server  LOG      ✓ Compiled in 96ms
+[00:02:29.327] Server  LOG      ✓ Compiled in 81ms
+[00:02:30.845] Server  LOG      ✓ Compiled in 87ms
+[00:02:36.851] Server  LOG      ✓ Compiled in 90ms
+[00:02:43.579] Server  LOG      ✓ Compiled in 80ms
+[00:02:44.058] Server  LOG      ✓ Compiled in 80ms
+[00:02:44.538] Server  LOG      ✓ Compiled in 93ms
+[00:02:51.158] Server  LOG      ✓ Compiled in 71ms
+[00:02:52.050] Server  LOG      ✓ Compiled in 168ms
+[00:02:56.961] Server  LOG      ✓ Compiled in 162ms
+[00:02:57.439] Server  LOG      ✓ Compiled in 83ms
+[00:02:59.369] Server  LOG      ✓ Compiled in 72ms
+[00:03:00.144] Server  LOG      ✓ Compiled in 82ms
+[00:03:01.950] Server  LOG      ✓ Compiled in 72ms
+[00:03:06.202] Server  LOG      ✓ Compiled in 79ms
+[00:03:06.511] Server  LOG      ✓ Compiled in 72ms
+[00:03:16.058] Server  LOG      ✓ Compiled in 78ms
+[00:03:19.534] Server  LOG      ✓ Compiled in 76ms
+[00:03:20.743] Server  LOG      ✓ Compiled in 83ms
+[00:03:39.999] Server  LOG      ✓ Compiled in 84ms
+[00:03:40.586] Server  LOG      ✓ Compiled in 78ms

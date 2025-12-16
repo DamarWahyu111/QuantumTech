@@ -13,8 +13,8 @@ export default function SubmitTesti() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    company: "",
-    position: "",
+    // company: "",
+    // position: "",
     service: "",
     rating: 0,
     message: "",
@@ -57,8 +57,6 @@ Testimonial Baru!
 
 Nama: ${formData.name}
 Email: ${formData.email}
-Perusahaan: ${formData.company || "-"}
-Jabatan: ${formData.position || "-"}
 Layanan: ${formData.service}
 Rating: ${formData.rating}/5 ⭐
 
@@ -75,14 +73,11 @@ ${formData.message}
         throw new Error(data.message || "Gagal mengirim testimonial")
       }
 
-      // Success - reset form and show success message
       setIsSubmitted(true)
       setTimeout(() => {
         setFormData({
           name: "",
           email: "",
-          company: "",
-          position: "",
           service: "",
           rating: 0,
           message: "",
@@ -130,7 +125,7 @@ ${formData.message}
                 required
                 value={formData.name}
                 onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                placeholder="John Doe"
+                placeholder="ex: Doe John"
                 className={`w-full pr-10 transition-all ${
                   formData.name.trim() ? "border-emerald-500 focus:ring-emerald-500" : ""
                 }`}
@@ -152,7 +147,7 @@ ${formData.message}
                 required
                 value={formData.email}
                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                placeholder="john@company.com"
+                placeholder="john@gmail.com"
                 className={`w-full pr-10 transition-all ${
                   formData.email.trim() ? "border-emerald-500 focus:ring-emerald-500" : ""
                 }`}
@@ -164,7 +159,7 @@ ${formData.message}
           </div>
 
           {/* Company & Position */}
-          <div className="grid md:grid-cols-2 gap-4">
+          {/* <div className="grid md:grid-cols-2 gap-4">
             <div>
               <label className="block text-sm font-semibold text-gray-700 mb-2">Perusahaan</label>
               <Input
@@ -185,7 +180,7 @@ ${formData.message}
                 className="w-full"
               />
             </div>
-          </div>
+          </div> */}
 
           {/* Layanan */}
           <div>
