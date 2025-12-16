@@ -42,7 +42,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="mt-4 text-white/60 leading-relaxed max-w-sm">
-              Perusahaan teknologi jasa website yang menghadirkan solusi digital berkualitas tinggi untuk bisnis Anda di
+              Jasa Teknologi website yang menghadirkan solusi digital berkualitas tinggi untuk bisnis Anda di
               Indonesia.
             </p>
 

@@ -24,8 +24,8 @@ export default function AboutSection() {
             </h2>
 
             <p className="text-white/70 lg:text-[#4a5568] leading-relaxed text-lg">
-              QuantumTech adalah perusahaan teknologi jasa website terkemuka yang berkomitmen untuk memberikan solusi
-              digital berkualitas tinggi. Kami mengkhususkan diri dalam web design, web development, dan website
+              QuantumTech adalah jasa teknologi website terkemuka yang berkomitmen untuk memberikan solusi
+              digital berkualitas tinggi. Kami mengkhususkan diri dalam web development, dan website
               responsive yang modern dan fungsional.
             </p>
 

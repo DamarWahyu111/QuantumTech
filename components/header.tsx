@@ -15,8 +15,8 @@ const navItems = [
       { label: "Our Team", href: "/our-team" },
       { label: "Testimonials", href: "/testimonials" },
       { label: "Submit Testimonial", href: "/submit-testimonial" },
-      { label: "Company Culture", href: "/company-culture" },
-      { label: "Awards & Recognition", href: "/awards" },
+      // { label: "Company Culture", href: "/company-culture" },
+      // { label: "Awards & Recognition", href: "/awards" },
     ],
   },
   {
@@ -33,21 +33,21 @@ const navItems = [
     label: "Our Thinking",
     hasDropdown: true,
     items: [
-      { label: "Blog & Insights", href: "/blog" },
+      // { label: "Blog & Insights", href: "/blog" },
       { label: "Case Studies", href: "/case-studies" },
       { label: "Tech Trends", href: "/tech-trends" },
       { label: "Whitepapers", href: "/whitepapers" },
     ],
   },
-  {
-    label: "Careers",
-    hasDropdown: true,
-    items: [
-      { label: "Open Positions", href: "/careers/open-positions" },
-      { label: "Internship Program", href: "/careers/internship" },
-      { label: "Life at QuantumTech", href: "/careers/life-at-quantumtech" },
-    ],
-  },
+  // {
+  //   label: "Careers",
+  //   hasDropdown: true,
+  //   items: [
+  //     { label: "Open Positions", href: "/careers/open-positions" },
+  //     { label: "Internship Program", href: "/careers/internship" },
+  //     { label: "Life at QuantumTech", href: "/careers/life-at-quantumtech" },
+  //   ],
+  // },
 ]
 
 const searchData = [

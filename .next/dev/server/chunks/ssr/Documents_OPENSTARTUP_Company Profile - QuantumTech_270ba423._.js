@@ -58,14 +58,6 @@ const navItems = [
             {
                 label: "Submit Testimonial",
                 href: "/submit-testimonial"
-            },
-            {
-                label: "Company Culture",
-                href: "/company-culture"
-            },
-            {
-                label: "Awards & Recognition",
-                href: "/awards"
             }
         ]
     },
@@ -92,10 +84,7 @@ const navItems = [
         label: "Our Thinking",
         hasDropdown: true,
         items: [
-            {
-                label: "Blog & Insights",
-                href: "/blog"
-            },
+            // { label: "Blog & Insights", href: "/blog" },
             {
                 label: "Case Studies",
                 href: "/case-studies"
@@ -107,24 +96,6 @@ const navItems = [
             {
                 label: "Whitepapers",
                 href: "/whitepapers"
-            }
-        ]
-    },
-    {
-        label: "Careers",
-        hasDropdown: true,
-        items: [
-            {
-                label: "Open Positions",
-                href: "/careers/open-positions"
-            },
-            {
-                label: "Internship Program",
-                href: "/careers/internship"
-            },
-            {
-                label: "Life at QuantumTech",
-                href: "/careers/life-at-quantumtech"
             }
         ]
     }

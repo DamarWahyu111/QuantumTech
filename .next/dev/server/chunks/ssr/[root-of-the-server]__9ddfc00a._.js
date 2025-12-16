@@ -570,7 +570,7 @@ function AboutSection() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-white/70 lg:text-[#4a5568] leading-relaxed text-lg",
-                                children: "QuantumTech adalah perusahaan teknologi jasa website terkemuka yang berkomitmen untuk memberikan solusi digital berkualitas tinggi. Kami mengkhususkan diri dalam web design, web development, dan website responsive yang modern dan fungsional."
+                                children: "QuantumTech adalah jasa teknologi website terkemuka yang berkomitmen untuk memberikan solusi digital berkualitas tinggi. Kami mengkhususkan diri dalam web development, dan website responsive yang modern dan fungsional."
                             }, void 0, false, {
                                 fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/about-section.tsx",
                                 lineNumber: 26,
@@ -1062,7 +1062,7 @@ function Footer() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "mt-4 text-white/60 leading-relaxed max-w-sm",
-                                    children: "Perusahaan teknologi jasa website yang menghadirkan solusi digital berkualitas tinggi untuk bisnis Anda di Indonesia."
+                                    children: "Jasa Teknologi website yang menghadirkan solusi digital berkualitas tinggi untuk bisnis Anda di Indonesia."
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/footer.tsx",
                                     lineNumber: 44,

@@ -58,14 +58,6 @@ const navItems = [
             {
                 label: "Submit Testimonial",
                 href: "/submit-testimonial"
-            },
-            {
-                label: "Company Culture",
-                href: "/company-culture"
-            },
-            {
-                label: "Awards & Recognition",
-                href: "/awards"
             }
         ]
     },
@@ -92,10 +84,7 @@ const navItems = [
         label: "Our Thinking",
         hasDropdown: true,
         items: [
-            {
-                label: "Blog & Insights",
-                href: "/blog"
-            },
+            // { label: "Blog & Insights", href: "/blog" },
             {
                 label: "Case Studies",
                 href: "/case-studies"
@@ -107,24 +96,6 @@ const navItems = [
             {
                 label: "Whitepapers",
                 href: "/whitepapers"
-            }
-        ]
-    },
-    {
-        label: "Careers",
-        hasDropdown: true,
-        items: [
-            {
-                label: "Open Positions",
-                href: "/careers/open-positions"
-            },
-            {
-                label: "Internship Program",
-                href: "/careers/internship"
-            },
-            {
-                label: "Life at QuantumTech",
-                href: "/careers/life-at-quantumtech"
             }
         ]
     }
@@ -826,7 +797,7 @@ function Footer() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$OPENSTARTUP$2f$Company__Profile__$2d$__QuantumTech$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "mt-4 text-white/60 leading-relaxed max-w-sm",
-                                    children: "Perusahaan teknologi jasa website yang menghadirkan solusi digital berkualitas tinggi untuk bisnis Anda di Indonesia."
+                                    children: "Jasa Teknologi website yang menghadirkan solusi digital berkualitas tinggi untuk bisnis Anda di Indonesia."
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/OPENSTARTUP/Company Profile - QuantumTech/components/footer.tsx",
                                     lineNumber: 44,
