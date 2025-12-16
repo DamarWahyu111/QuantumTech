@@ -5,8 +5,8 @@ const footerLinks = {
   company: [
     { label: "About Us", href: "/#about" },
     { label: "Our Team", href: "/our-team" },
-    { label: "Careers", href: "/careers" },
-    { label: "News", href: "/blog" },
+    // { label: "Careers", href: "/careers" },
+    // { label: "News", href: "/blog" },
   ],
   services: [
     { label: "Web Design", href: "/#services" },
@@ -15,9 +15,9 @@ const footerLinks = {
     { label: "E-Commerce", href: "/#services" },
   ],
   resources: [
-    { label: "Blog", href: "/blog" },
+    // { label: "Blog", href: "/blog" },
     { label: "Case Studies", href: "/case-studies" },
-    { label: "Portfolio", href: "/case-studies" },
+    // { label: "Portfolio", href: "/case-studies" },
     { label: "Contact", href: "/#contact" },
   ],
 }

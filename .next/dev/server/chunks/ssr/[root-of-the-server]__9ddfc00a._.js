@@ -954,14 +954,6 @@ const footerLinks = {
         {
             label: "Our Team",
             href: "/our-team"
-        },
-        {
-            label: "Careers",
-            href: "/careers"
-        },
-        {
-            label: "News",
-            href: "/blog"
         }
     ],
     services: [
@@ -983,18 +975,12 @@ const footerLinks = {
         }
     ],
     resources: [
-        {
-            label: "Blog",
-            href: "/blog"
-        },
+        // { label: "Blog", href: "/blog" },
         {
             label: "Case Studies",
             href: "/case-studies"
         },
-        {
-            label: "Portfolio",
-            href: "/case-studies"
-        },
+        // { label: "Portfolio", href: "/case-studies" },
         {
             label: "Contact",
             href: "/#contact"
