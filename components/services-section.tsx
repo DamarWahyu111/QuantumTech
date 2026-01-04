@@ -88,7 +88,7 @@ export default function ServicesSection() {
   const [selectedService, setSelectedService] = useState<(typeof services)[0] | null>(null)
 
   const handleContactWhatsApp = () => {
-    const whatsappNumber = "6281234567890" // Ganti dengan nomor WA Anda (format: 62xxxxxxxxxxx)
+    const whatsappNumber = "6282327686909" // Ganti dengan nomor WA Anda (format: 62xxxxxxxxxxx)
     const message = encodeURIComponent(
       `Halo QuantumTech, saya tertarik dengan layanan ${selectedService?.title}. Bisakah saya mendapatkan informasi lebih lanjut?`,
     )

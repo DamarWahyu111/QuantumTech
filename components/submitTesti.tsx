@@ -197,7 +197,7 @@ ${formData.message}
                 }`}
               >
                 <option value="">Pilih Layanan</option>
-                <option value="Web Design">Web Design</option>
+                {/* <option value="Web Design">Web Design</option> */}
                 <option value="Website Responsive">Website Responsive</option>
                 <option value="Web Development">Web Development</option>
               </select>
